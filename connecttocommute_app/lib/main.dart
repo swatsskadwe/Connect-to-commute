@@ -7,7 +7,7 @@ import 'package:connecttocommute_app/pages/login.dart';
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: '/home',
+    initialRoute:'/login',
     routes: {
       '/login': (context) => LoginScreen(),
       '/home' : (context) => HomeScreen(),
